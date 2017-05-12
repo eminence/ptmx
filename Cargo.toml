@@ -1,0 +1,11 @@
+[package]
+name = "ptmx"
+version = "0.1.0"
+authors = ["Andrew Chin <achin@eminence32.net>"]
+
+[dependencies]
+libc = "0.2.22" 
+
+[[bin]]
+name = "main"
+path = "src/main.rs"
